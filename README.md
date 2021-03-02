@@ -1,18 +1,23 @@
-# {Team Name} - URL shortener {🧪}
+# {MinusOpusEastAurum} - URL shortener {🧪}
 
 This is a template project for "Software testing" course labs. Use it to create your own repo and 
 fulfill/rewrite this document (at least, replace everything in `{...}`).
 
 ## Students group
 
-- {Surname Name (in Ukrainian)} {email}
-- ...
-- {Surname Name (in Ukrainian)} {email}
+- {Dyshkant Vladyslav (in Ukrainian)} {vlad.dishkant111@gmail.com}
+- {Gulko Maxim (in Ukrainian)} {mm123.gg@bk.ru}
+- {Tashkinov Denis (in Ukrainian)} {denistaskinov@gmail.com}
+- {Nagorny Vladislav (in Ukrainian)} {nahornyi.vlad@gmail.com}
 
 ## Design document
 
-The [design document]({Place actual link to the design document Google Docs file here}) that
+The [design document]({https://docs.google.com/document/d/1s85U-oXo4il7Ch3KpekOwy0XyEYajkIxVruOodpuAjU/edit?usp=sharing}) that
 describes architecture and implementation details of this project.
+
+## Specification
+
+The [specification document] ({https://docs.google.com/document/d/1RIQWpiXRuxUmI_VhMZjo-UgxMxjEIXIpC2tmMY_ZpuE/edit}).
 
 ### System structure
 

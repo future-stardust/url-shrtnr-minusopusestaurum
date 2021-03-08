@@ -9,6 +9,6 @@ class HelloTest {
   @Test
   void simpleAlwaysGreenTest() {
       assertThat(1).isEqualTo(1);
-      assertThat(100).isEqualTo(0);
   }
 }
+

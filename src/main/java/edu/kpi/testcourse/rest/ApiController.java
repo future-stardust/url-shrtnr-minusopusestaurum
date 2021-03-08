@@ -20,5 +20,4 @@ public class ApiController {
   public String hello() {
     return Main.getGson().toJson(new ExampleClass("Hello", "world!"));
   }
-
 }

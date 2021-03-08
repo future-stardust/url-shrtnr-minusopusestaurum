@@ -23,6 +23,16 @@ public class Main {
   public static void main(String[] args) {
     Micronaut.run(Main.class, args);
 
+    Database databaseUsers = new Database();
+    Database databaseLinks = new Database();
+
+    User user1 = new User(0, "admin@gmail.com", "password");
+    Link link1 = new Link(0, "http://google.com");
+
+    databaseUsers.addObject(user1);
+    databaseLinks.addObject(link1);
+
+
   }
 
   public static Gson getGson() {

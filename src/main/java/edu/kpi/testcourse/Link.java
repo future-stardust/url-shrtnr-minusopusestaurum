@@ -8,6 +8,7 @@ import java.util.Random;
  * <p>Include all wich refers to links: userID, link, short link.
  */
 public class Link {
+  private int idLink;
   private int userId;
   private String link;
   private String shortLink;
@@ -17,10 +18,19 @@ public class Link {
    *
    * <p>Assigns userId, link and generate short link.
    */
-  public Link(int userId, String link) {
+  public Link(int idLink, int userId, String link) {
+    this.idLink = idLink;
     this.userId = userId;
     this.link = link;
     setShortlink();
+  }
+
+  public int getIdLink() {
+    return idLink;
+  }
+
+  public void setIdLink(int idLink) {
+    this.idLink = idLink;
   }
 
   public int getUserid() {

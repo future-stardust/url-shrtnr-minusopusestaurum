@@ -8,16 +8,25 @@ import java.util.ArrayList;
  * <p>Include array with all objects for talbe.
  */
 public class Database {
-  private ArrayList<Object> arrayList = new ArrayList<Object>();
+  private final ArrayList<User> arraylistUser = new ArrayList<User>();
+  private final ArrayList<Link> arraylistLink = new ArrayList<Link>();
 
   public Database() {
   }
 
-  public ArrayList<Object> getObjects() {
-    return arrayList;
+  public ArrayList<User> getArraylistUser() {
+    return arraylistUser;
   }
 
-  public void addObject(Object object) {
-    getObjects().add(object);
+  public void addArraylistUser(User user) {
+    arraylistUser.add(user);
+  }
+
+  public ArrayList<Link> getArraylistLink() {
+    return arraylistLink;
+  }
+
+  public void addArraylistLink(Link link) {
+    arraylistLink.add(link);
   }
 }

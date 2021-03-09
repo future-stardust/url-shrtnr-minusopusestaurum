@@ -29,7 +29,7 @@ public class AuthenticationProviderUserPassword implements AuthenticationProvide
     // TODO Here you need to implement an actual authentication (ensure that the user is registered
     //  and password is OK)
     return Flowable.create(emitter -> {
-      if (authenticationRequest.getIdentity().equals("sherlock")
+      if (authenticationRequest.getIdentity().equals("admin@gmail.com")
           && authenticationRequest.getSecret().equals("password")) {
         emitter
           .onNext(new UserDetails((String) authenticationRequest.getIdentity(), new ArrayList<>()));

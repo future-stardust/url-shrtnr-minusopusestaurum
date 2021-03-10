@@ -1,4 +1,4 @@
 /**
- * This package contains implementation of REST interface of URL shortener.
+ * HTTP Frontend - Handles HTTP requests, provides REST API.
  */
 package edu.kpi.testcourse.rest;

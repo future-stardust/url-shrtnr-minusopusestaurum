@@ -1,4 +1,4 @@
-package edu.kpi.testcourse.rest;
+package edu.kpi.testcourse.auth;
 
 import edu.umd.cs.findbugs.annotations.Nullable;
 import io.micronaut.http.HttpRequest;
@@ -26,8 +26,7 @@ public class AuthenticationProviderUserPassword implements AuthenticationProvide
       @Nullable HttpRequest<?> httpRequest,
       AuthenticationRequest<?, ?> authenticationRequest
   ) {
-    // TODO Here you need to implement an actual authentication (ensure that the user is registered
-    //  and password is OK)
+
     return Flowable.create(emitter -> {
       if (authenticationRequest.getIdentity().equals("sherlock")
           && authenticationRequest.getSecret().equals("password")) {

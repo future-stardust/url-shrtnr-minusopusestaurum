@@ -15,6 +15,10 @@ fulfill/rewrite this document (at least, replace everything in `{...}`).
 The [design document]({https://docs.google.com/document/d/1s85U-oXo4il7Ch3KpekOwy0XyEYajkIxVruOodpuAjU/edit?usp=sharing}) that
 describes architecture and implementation details of this project.
 
+## Specification
+
+The [specification document] ({https://docs.google.com/document/d/1RIQWpiXRuxUmI_VhMZjo-UgxMxjEIXIpC2tmMY_ZpuE/edit}).
+
 ### System structure
 
 After the third laboratory assignment groups will switch projects with one another. Because of this,

@@ -13,15 +13,17 @@ import org.slf4j.LoggerFactory;
  * <p>It creates, connects and starts all system parts.
  */
 public class Main {
+
   private static final Gson gson = new Gson();
   private static final Logger logger = LoggerFactory.getLogger(Main.class);
-
+  
   /**
    * Starting program
    *
    * <p>Start all components of program.
    */
   public static void main(String[] args) throws IOException {
+
     Micronaut.run(Main.class, args);
   }
 

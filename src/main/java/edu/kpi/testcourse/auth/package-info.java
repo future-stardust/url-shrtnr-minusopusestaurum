@@ -1,4 +1,4 @@
 /**
- * This package contains classes related to a user authentication flow.
+ * Users - Authenticates and manages users.
  */
 package edu.kpi.testcourse.auth;

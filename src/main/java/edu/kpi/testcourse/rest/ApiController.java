@@ -1,8 +1,7 @@
 package edu.kpi.testcourse.rest;
 
-
-import edu.kpi.testcourse.db.Alias;
-import edu.kpi.testcourse.urls.UrlsRepository;
+import edu.kpi.testcourse.UrlsRepository;
+import edu.kpi.testcourse.User;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Body;
@@ -31,7 +30,7 @@ public class ApiController {
    * @return status of running
    */
   @Get(value = "/hello", produces = MediaType.APPLICATION_JSON)
-  public Alias[] hello() {
+  public User[] hello() {
     return urlsRepository.search();
   }
 
@@ -53,7 +52,7 @@ public class ApiController {
    */
   @Get(value = "/urls", produces = MediaType.APPLICATION_JSON)
   public String[] getUserUrls() {
-    return new String[]{"Url array"};
+    return new String[]{"Array of links"};
   }
 
   /**
@@ -67,3 +66,4 @@ public class ApiController {
     return HttpResponse.ok();
   }
 }
+

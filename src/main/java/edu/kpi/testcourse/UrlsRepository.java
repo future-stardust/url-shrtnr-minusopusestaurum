@@ -55,6 +55,10 @@ public class UrlsRepository implements Repository<User, String> {
     users = new ArrayList<>(Arrays.asList(defaultInnerValues));
   }
 
+  public ArrayList<User> getUsers(){
+    return users;
+  }
+
   @Override
   public User[] search() {
     return users.toArray(new User[0]);

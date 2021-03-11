@@ -55,7 +55,7 @@ public class UrlsRepository implements Repository<User, String> {
     users = new ArrayList<>(Arrays.asList(defaultInnerValues));
   }
 
-  public ArrayList<User> getUsers(){
+  public ArrayList<User> getUsers() {
     return users;
   }
 
